@@ -4,9 +4,7 @@ function App() {
 
 
   return (
-    <div className="App">
-      <div className="hidden" id="player"></div>
-
+    <div className="bg-gray-900 h-screen">
       <AudioPlayer></AudioPlayer>
     </div>
   )
