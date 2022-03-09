@@ -71,6 +71,7 @@ function AudioPlayer() {
   }
 
   const createAudioPlayer = () => {
+    // @ts-ignore
     const audioPlayer = new YT.Player('player', {
       height: '390',
       width: '640',
